@@ -1,0 +1,306 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+
+body{
+    background: url(../img/Hacker%20Background%201.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cookie', cursive;
+}
+
+
+
+.message{
+    display: block;
+    margin: 0px 0px 0px 93%;
+    position: fixed; 
+    top: 600px;
+    color: white;
+}
+.mass-icon{
+    height: 15px;
+    width: 20px;
+    background-color: white;
+    margin: 9px 0px 0px 0px 
+}
+
+/*Container*/
+
+.container{
+    width: 1340px;
+    margin: 0px auto;
+}
+
+/* Header part start*/
+
+header{
+    height: 100px;
+    width: 100%;
+    float: left;
+    background-color: #151515ed;
+    position: fixed;
+    top: 0px;
+}
+
+/* logo */
+
+.logo{
+    width: 25%;
+    float: left;
+    background-color:;
+    color: #f0e8e6c7;
+    height: 100px;
+}
+
+.logo img{
+    display: block;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.logo h2{
+    display: block;
+    float:left;
+    margin: 10px;
+    padding: 50px 1px 1px;
+    font-size: 35px;
+}
+
+/* manu */
+
+.manu{
+    width: 75%;
+    height: 100px;
+    float: left;
+}
+
+.manu ul{
+    list-style: none;
+}
+
+.manu ul li{
+    display: block;
+    float: left;
+    padding: 75px 10px 5px;
+    margin: 0px 30px;
+}
+.manu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.fa.fa-sign-in{
+    margin: 0px 0px 0px 5px;
+}
+
+
+/* Header part end*/
+
+.info{
+    display: block;
+    padding: 50% 50% 5% 5%;
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+    background: url(../img/49104.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*Sectiion one start*/
+
+.service{
+    width: 100%;
+    float: left;
+    color: white;
+    margin: 2% 0px;
+}
+.service h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.service-one{
+    width: 20%;
+    padding: 10px;
+    float: left;
+    font-size: 25px;
+    margin: 40px 20px 40px 20px;
+}
+
+.fa.fa-wifi{
+    margin: 30px 80px;
+    font-size: 50px;
+}
+
+.service-two{
+    width: 20%;
+    padding: 10px;
+    float: left;
+    font-size: 25px;
+    margin: 40px 20px 40px 20px;
+}
+.fa.fa-usb{
+    margin: 30px 80px;
+    font-size: 50px; 
+}
+
+.service-three{
+    width: 20%;
+    padding: 10px;
+    float: left;
+    font-size: 25px;
+    margin:  40px 20px 40px 20px;
+}
+.fa.fa-laptop{
+    margin: 30px 80px;
+    font-size: 50px; 
+}
+
+.service-four{
+    width: 20%;
+    padding: 10px;
+    float: left;
+    font-size: 25px;
+    margin: 40px 20px 40px 20px;
+}
+.fa.fa-cogs{
+    margin: 30px 80px;
+    font-size: 50px;
+}
+
+.btn{
+    display: block;
+    margin: 30px 40px;
+    border: none;
+    background-color: gold;
+    padding: 10px 20px;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+/* section one end */
+
+/*section two start */
+.blog-section{
+    width: 100%;
+    float: left;
+    margin: 0px 0px 5% 0px;
+}
+
+.blog{
+    width: 100%;
+    background-color:;
+    float: left;
+}
+.blog h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 25px 
+}
+.blog a{
+    text-decoration: none;
+}
+
+.blog ul{
+    list-style: none;
+}
+
+.blog ul li{
+    display: block;
+    text-align: center;
+}
+
+.blog ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+/*section two end*/
+
+.about{
+    width: 100%;
+    float:left;
+    color: white;
+
+}
+.about h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: 25px;
+}
+
+.service-i{
+    width: 25%;
+    padding: 10px;
+    float: left;
+}
+
+.service-ii{
+    width: 25%;
+    padding: 10px;
+    float: left;
+}
+
+.service-iii{
+    width: 25%;
+    padding: 10px;
+    float: left;
+}
+
+
+
+/* Footer start */
+
+footer{
+    width: 100%;
+    margin: 5% 0px 0px 0px;
+    float: left;
+    background-color: #69696963;
+    
+}
+
+.contact{
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+.contact ul{
+    list-style: none;
+}
+
+.contact ul li{
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+}
+
+.contact ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+
+.copyright{
+    width: 50%;
+    height: 100px;
+    float: left;
+    color: white;
+    
+}
+
